@@ -12,7 +12,7 @@ class ItemController extends Controller
 			// return false
 			header('Location: ' . URL);
 		}
-		$_SESSION['info'] = 'Item created';
+
 		header('Location: ' . URL);
 	}
 
@@ -39,6 +39,7 @@ class ItemController extends Controller
 			// return false
 			header('Location: ' . URL);
 		}
+
 		header('Location: ' . URL);
 	}
 
@@ -53,6 +54,7 @@ class ItemController extends Controller
 			// return false
 			header('Location: ' . URL);
 		}
+
 		header('Location: ' . URL);
 	}
 
@@ -67,6 +69,7 @@ class ItemController extends Controller
 			// return false
 			header('Location: ' . URL);
 		}
+
 		header('Location: ' . URL);
 	}
 
@@ -81,6 +84,7 @@ class ItemController extends Controller
 			// return false
 			header('Location: ' . URL);
 		}
+		
 		header('Location: ' . URL);
 	}
 }
