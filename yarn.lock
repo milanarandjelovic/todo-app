@@ -891,10 +891,6 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bootstrap-sass@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap-sass/-/bootstrap-sass-3.3.7.tgz#6596c7ab40f6637393323ab0bc80d064fc630498"
-
 brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
@@ -3868,6 +3864,10 @@ md5@^2.2.1:
     charenc "~0.0.1"
     crypt "~0.0.1"
     is-buffer "~1.1.1"
+
+mdbootstrap@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/mdbootstrap/-/mdbootstrap-4.4.3.tgz#7171046dbc64bdc29cfa0f872b2d581107172b18"
 
 media-typer@0.3.0:
   version "0.3.0"
