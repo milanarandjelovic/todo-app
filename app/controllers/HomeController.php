@@ -8,6 +8,7 @@ class HomeController extends Controller
 	 */
 	public function index()
 	{
+		$this->view->todos = $this->model->all('todos');
 		$this->view->render('items/index.php');
 	}
 }
