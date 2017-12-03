@@ -1,0 +1,45 @@
+body {
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f3f3f4;
+  font-size: 13px;
+  color: #676a6c;
+  overflow-x: hidden;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.middle-box {
+  h1 {
+    font-size: 170px;
+    margin: 0;
+  }
+
+  max-width: 400px;
+  z-index: 100;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.no__items {
+  p {
+    margin-bottom: 0 !important;
+  }
+}
+
+.complete {
+  background:rgb(175,177,181);
+  background:-moz-linear-gradient(top,  rgb(175,177,181) 0%, rgb(210,212,217) 5%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(175,177,181)), color-stop(10%,rgba(210,212,217,0.3)));
+  background:linear-gradient(to bottom,  rgb(175,177,181) 0%,rgb(210,212,217) 5%);
+
+  span.name {
+    text-decoration: line-through;
+    color: #a94442;
+  }
+}

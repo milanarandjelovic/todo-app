@@ -21039,3 +21039,14 @@ body {
   margin-bottom: 0 !important;
 }
 
+.complete {
+  background: #afb1b5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#afb1b5), color-stop(5%, #d2d4d9));
+  background: linear-gradient(to bottom, #afb1b5 0%, #d2d4d9 5%);
+}
+
+.complete span.name {
+  text-decoration: line-through;
+  color: #a94442;
+}
+
